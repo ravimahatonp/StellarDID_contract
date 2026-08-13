@@ -8,8 +8,6 @@ target/
 .contract-ids/
 
 # Environment & secrets
-.env
-.env.*
 !.env.example
 
 # macOS
@@ -22,7 +20,6 @@ Icon?
 .Trashes
 
 # Editor & IDE
-.vscode/
 .idea/
 *.iml
 *.sw[a-p]
@@ -30,3 +27,5 @@ Icon?
 
 # Logs
 *.log
+config.bat
+node_modules
